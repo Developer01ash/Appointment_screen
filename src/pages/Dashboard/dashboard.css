@@ -1,0 +1,298 @@
+body {
+  font-family: Poppins;
+}
+
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 928px;
+  border-radius: 12px;
+  margin: 80px auto 0px;
+  background: #ffffff;
+}
+.wrapper {
+  position: relative;
+  padding-bottom: 190px;
+  background-image: url("../../assests/images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.dashboard .calendar {
+  border-radius: 10px;
+  width: 400px;
+  border: 1px solid #c7c9d9;
+}
+.dashboard .calendar button {
+  border-radius: 50%;
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+  padding: 2px;
+  cursor: pointer;
+  background-color: transparent;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+.dashboard .calendar button:hover {
+  background-color: transparent;
+}
+.dashboard .calendar button:disabled {
+  cursor: not-allowed;
+}
+.dashboard .calendar button:focus {
+  background-color: #008000;
+  color: white;
+}
+.dashboard .calendar .react-calendar__navigation {
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  border-bottom: 1px solid #f2f2f5;
+  padding: 3px 10px;
+  height: auto;
+}
+.dashboard .calendar .react-calendar__navigation__arrow {
+  color: #378760;
+  font-size: 25px;
+}
+.dashboard
+  .calendar
+  .react-calendar__navigation
+  .react-calendar__navigation__label {
+  border-radius: 5px !important;
+  height: 50px !important;
+  width: auto !important;
+}
+.dashboard
+  .calendar
+  .react-calendar__navigation
+  .react-calendar__navigation__label
+  span {
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+}
+.dashboard .calendar .react-calendar__month-view__days {
+  gap: 10px !important;
+  padding: 0px 20px !important;
+}
+.dashboard .calendar .react-calendar__month-view__weekdays {
+  padding: 0px 20px;
+}
+.dashboard .calendar .react-calendar__month-view__weekdays__weekday abbr {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #378760;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.dashboard .calendar .react-calendar__tile--active {
+  background: #378760;
+  width: 52px;
+  height: 30px;
+  border-radius: 99px;
+  padding: 5px;
+}
+.dashboard .calendar .react-calendar__tile--active:hover {
+  background: #378760;
+}
+.calendar-view {
+  width: 50%;
+  background: #ebebf0;
+  padding: 40px;
+  border-radius: 12px 0px 0px 12px;
+  text-align: left;
+}
+.dropdown-side {
+  width: 50%;
+  padding: 40px;
+  border-radius: 0px 12px 12px 0px;
+  max-height: 450px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.dropdown-side select {
+  height: 48px;
+  width: 100%;
+  padding: 8px 12px 8px 12px;
+  border: 1px solid #c7c9d9;
+  border-radius: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.select-dropdown {
+  position: relative;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #378760;
+  border-bottom: 1px solid #c7c9d9;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.select-dropdown:after {
+  position: absolute;
+  content: "";
+  right: 10px;
+  top: 14px;
+  background-image: url("../../assests/images/chevron-down.png");
+  height: 20px;
+  width: 20px;
+}
+h1 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: #28293d;
+  margin-bottom: 0px;
+}
+.calendar-view h3 {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #555770;
+  margin-top: 0px;
+}
+.calendar-view h3 span {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #555770;
+}
+.date-time {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #555770;
+}
+.slot-time {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #378760;
+}
+.footer {
+  background: #378760;
+  height: 78px;
+  width: 928px;
+  margin: auto;
+  padding: 15px 0px;
+  border-radius: 0px 0px 12px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer p {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  padding: 0px 20px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+.footer button {
+  border: 1px solid #378760;
+  background: #fff;
+  height: 48px;
+  width: 120px;
+  border-radius: 10px;
+  margin-right: 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #555770;
+  cursor: pointer;
+  padding-left: 15px;
+}
+.footer button img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-top: -2px;
+}
+@media screen and (min-width: 801px) and (max-width: 900px) {
+  .dashboard {
+    width: 90%;
+  }
+  .footer {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .dashboard {
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+    margin-top: 30px;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  .dashboard .calendar {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+  .calendar-view {
+    width: 70%;
+    border-radius: 12px;
+  }
+  .dashboard .calendar .react-calendar__month-view__days {
+    padding: 10px 9px !important;
+    gap: 0px !important;
+  }
+  .wrapper {
+    background-image: none;
+    padding: 0px;
+  }
+  .dropdown-side {
+    background-color: #fff;
+    width: 70%;
+    margin: 20px 0px;
+    border-radius: 12px;
+  }
+  .dashboard
+    .calendar
+    .react-calendar__navigation
+    .react-calendar__navigation__label
+    span {
+    font-size: 14px;
+  }
+} /*# sourceMappingURL=dashboard.css.map */
